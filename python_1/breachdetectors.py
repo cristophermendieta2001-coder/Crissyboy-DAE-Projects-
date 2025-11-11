@@ -25,7 +25,10 @@ def check_integrity(directory_path):
             print(f"File: {file_path}\nSHA-256 Hash {calculated_hash}")
 
 
-        if __name__ ==""
+        if __name__ == "__main__":
+            directory_to_check = input("Enter the directory path to check integrity: ")
+            check_integrity(directory_to_check)                
+            
            
 
                                                               
